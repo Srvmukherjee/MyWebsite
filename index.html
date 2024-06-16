@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourav Mukherjee portfolio</title>
+    <link rel="stylesheet" href="script.css">
+    <script src="https://kit.fontawesome.com/ef75a190a5.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!-- Header section🙂 -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo-removebg-preview copy.png"class = "logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="line-1 anim-typewriter">
+                
+                <h1>Hi, I'm <span1>Sourav</span1> from India</h1>
+                
+            </div>
+        </div>
+    </div>
+    <!-----------------About Section------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                     <section id="neon">
+                        <div class="container1">
+                             <div class="neon-card">
+                                  <img src="images/Sourav_Mukherjee.png" alt="image">
+                            </div>
+                        </div>
+                     </section>
+                    </div>   
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veritatis, harum, assumenda doloremque architecto aliquid veniam labore aliquam blanditiis natus necessitatibus eveniet tempore possimus deserunt laboriosam quis voluptate qui perferendis dicta pariatur sapiente optio ipsa provident? Earum voluptates quia expedita non, cumque voluptas, fuga iste officia, est saepe ratione vel.</p>
+                
+                
+                    <div class="tab-titles">
+                    <p class = "tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class = "tab-links " onclick="opentab('experience')">Experience</p>
+                    <p class = "tab-links " onclick="opentab('education')">Educations</p>
+                </div>
+                <!-- Skills -->
+                <div class="tab-contains active-tab" id="skills">
+                    <ul>
+                        <li><span>C/C++</span><br/>OOPs concepts, DSA</li>
+                        <li><span>Front End Developement</span><br/>html, css, javascript</li>
+                        <li><span>Python</span><br>Datascience and AI developement</li>
+                        <li><span>Java</span><br>Core java</li>
+                        <li><span>Artificial Intelligence</span><br/>Liveraging AI for developement and logic building</li>
+                        <li><span>Machine Learning</span><br/>Basics of machine learning</li>
+                        <li><span>Micrsoft 365</span><br/>Micrsoft office, Micrsoft powerpoint, Micrsoft Excels</li>
+
+
+                    </ul>
+                </div>
+                <!-- Experience Tab -->
+                <div class="tab-contains"id="experience">
+                    <ul>
+                        <li><span>Chegg India private Limited</span><br>2 years<br>Part-time doubt solver<br/>Electrical Engineering</li>
+                        <li><span>Campalin Innovation private Limited </span><br>Bengaluru, Karnataka, India<br>06/2023 – 07/2023 (2 Months)<br/>Internship in Machine learning with Python in association with Campalin from</li>
+                        <li><span>BSNL NSCBTTC Kalyani</span><br>WB, India<br>11/2020 - 11/2020<br/>Industrial training in telecom technology</li>
+                    </ul>
+                </div>
+                <!-- Education Tab -->
+                <div class="tab-contains"id="education">
+                    <ul>
+                        <li><span>Bachelor of Technology</span><br>Heritage Institute of Technology, Kolkata, WB, India<br>(09/2021 – 06/2024)<br>Electronics & Communication Engineering
+                            <br/>CGPA - 8.10</li>
+                        <li><span>Diploma</span><br/>Ramakrishna Mission Shilpamandira, Belur Math, Howrah, WB, India<br>(05/2018 – 06/2021)<br>
+                            Electronics & Telecommunication Engineering <br/> Percentage - 85.2%</li>
+                        <li><span>XII</span><br>Uttarpara GOVT High School, Hooghly, WB, India.<br/>(04/2016-03/2018)<br>PCM + Computer Science<br/>Persentage: 63%</li>
+                        <li><span>X</span><br/>Uttarpara Children's Own Home, Hooghly, WB, India<br/>general<br/>Persentage- 80%</li>
+
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------Services--------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <h2>Path Loss Prediction Model </h2>
+                    <p>Machine learning, Python, MS-Excel<br/> IDE - Visual Studio Code, Qualnet simulator, Jupyter Notebook</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Movie-Lens 20M Dataset Analysis</h2>
+                    <p>Python,Pandas,MS-Excel, IDE-Visual Studio Code</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-house-circle-check"></i>
+                    <h2>Home Automation Using 8051uc</h2>
+                    <p>8051uc, Bluetooth module HC-05</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <!-- <div>
+                    <i class="fa-solid fa-box"></i>
+                    <h2>FrontEnd Development</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto accusamus reiciendis officiis quibusdam, architecto vel consectetur sint harum nemo sit.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-box"></i>
+                    <h2>FrontEnd Development</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto accusamus reiciendis officiis quibusdam, architecto vel consectetur sint harum nemo sit.</p>
+                    <a href="#">Learn more</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!---------------------Portfolio------------------------->
+    <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="./certificates/crs4.png" alt="Machine learning Using Python">
+              <div class="layer">
+                <h3>Internship Certificates</h3>
+                <p>Data Science, Data Analysis, Python Programming, Numpy, Pandas</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="./certificates/crs1.png" alt="Python for Data Science, AI & Development">
+              <div class="layer">
+                <h3>Python for Data Science, AI & Development</h3>
+                <p>Data Science, Data Analysis, Python Programming, Numpy, Pandas</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="./certificates/crs2.png" alt="Core Java">
+              <div class="layer">
+                <h3>Core Java</h3>
+                <p>Computer Programming, Web Development, Java Programming</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="./certificates/crs3.png" alt="Social Media">
+              <div class="layer">
+                <h3>Technicals support fundamentals</h3>
+                <p>Binary Code, Customer Support, Linux, Troubleshooting</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn" id="see-more">See more</a>
+        </div>
+      </div>
+
+    <!--------------------- Contact------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope-circle-check"></i>souravmukherjee1111999@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 7003891493</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sourav-mukherjee-892177205/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/Srvmukherjee28"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://github.com/Srvmukherjee"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="https://www.hackerrank.com/profile/souravmukherje19"><i class="fa-brands fa-hackerrank"></i></a>
+                    </div>
+                    <!--Download cv -->
+                    <a href="./images/CV_souravMukherjee copy.pdf"Download class="btn btn1">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text"name="Name"placeholder="Your name"required>
+                        <input type="email"name="Email" placeholder="Your email"required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--------Copyright--------->
+        <div class="copyright">
+            <p>Copyright @ Sourav_Mukherjee_2024<i class="fa-solid fa-hands-praying"></i></p>
+        </div>
+    </div>
+    <!-----------------------js file ------------------------>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontains = document.getElementsByClassName("tab-contains");
+       
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontains){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+    
+
+</body>
+</html>
