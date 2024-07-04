@@ -25,7 +25,7 @@ body{
 }
 #header:hover{
     transform: translateY(-20px);
-  box-shadow: 0px 15px 40px #ff004f;
+  box-shadow: 0px 15px 40px #0cc8f3;
 }
 .container{
     padding: 10px 10px;
@@ -56,7 +56,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #a5cec5;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -79,7 +79,7 @@ nav ul li a:hover::after{
     color: #fff;
 }
 span1{
-    color: #ff004f;
+    color: #00acb5;
 }
 /* Animation */
 .anim-typewriter {
@@ -113,7 +113,7 @@ span1{
 }
 #about:hover{
     transform: translateY(-20px);
-  box-shadow: 0px 15px 40px #ff004f;
+  box-shadow: 0px 15px 40px #04a1e9;
 }
 .row{
     display: flex;
@@ -147,13 +147,13 @@ span1{
   flex-direction: row;
   padding: 10px;
   margin: 20px;
-  box-shadow: 5px 10px 100px #ff004f, 0px 5px 20px #ff004f;
+  box-shadow: 5px 10px 100px #00c8ff, 0px 5px 20px #d0ff00;
   transition: all ease 0.5s;
   
 }
 .neon-card:hover {
   transform: translateY(-20px);
-  box-shadow: 0px 15px 40px #ff004f;
+  box-shadow: 0px 15px 40px #08e4f4;
 }
 
 .about-col-2{
@@ -180,7 +180,7 @@ span1{
     content: '';
     width: 0;
     height: 3px;
-    background-color: #ff004f;
+    background-color: #13f7e4;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -194,7 +194,7 @@ span1{
     margin: 10px 0;
 }
 .tab-contains ul li span{
-    color:#ff004f;
+    color:#0be0e7;
     font-size: 14px;
 }
 .tab-contains{
@@ -214,7 +214,7 @@ span1{
 }
 #services:hover{
     transform: translateY(-20px);
-  box-shadow: 0px 15px 40px #ff004f;
+  box-shadow: 0px 15px 40px #483ce6;
 }
 
 .services-list {
@@ -252,7 +252,7 @@ span1{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #ff004f;
+    background: #483ce6;
     transform: translate(-10px);
 }
 /*-----portfolio---*/
@@ -373,7 +373,7 @@ span1{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #ff004f;
+    color: #f7b716;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -389,11 +389,16 @@ span1{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color: #f2b706;
     transform: translate(-5px);
 }
 .btn.btn2{
     display: inline-block;
+    background: #000000;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+}
+.btn.btn2:hover{
     background: #ff004f;
 }
 .contact-right form{
@@ -403,7 +408,7 @@ form input,form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #262626;
+    background: #000000;
     padding: 15px;
     margin: 15px 0;
     color:#fff;
