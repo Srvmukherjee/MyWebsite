@@ -24,7 +24,7 @@ body{
 }
 #header:hover{
     transform: translateY(-20px);
-  box-shadow: 0px 15px 40px #0cc8f3;
+  box-shadow: 0px 15px 40px #f30c83;
 }
 .container{
     padding: 10px 10px;
@@ -55,7 +55,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #a5cec5;
+    background: #f30303;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -65,7 +65,8 @@ nav ul li a:hover::after{
     width: 100%;
 }
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 .line-1 {
     margin-top: 20%;
     font-size: 30px;
@@ -78,7 +79,7 @@ nav ul li a:hover::after{
     color: #fff;
 }
 span1{
-    color: #00acb5;
+    color: #c812a0;
 }
 /* Animation */
 .anim-typewriter {
@@ -104,6 +105,20 @@ span1{
         border-right-color: transparent;
     }
 }
+.headingtext{
+    margin-top: 20%;
+    font-size: 30px;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    color: #fff;
+}
+/* #smallerScreenText{
+    font-size: 0px;
+} */
 /*-----About section------*/
 #about{
     padding:80px 0;
@@ -113,7 +128,7 @@ span1{
 }
 #about:hover{
     transform: translateY(-20px);
-  box-shadow: 0px 15px 40px #04a1e9;
+  box-shadow: 0px 15px 40px #f30303;
 }
 .row{
     display: flex;
@@ -147,7 +162,7 @@ span1{
   flex-direction: row;
   padding: 10px;
   margin: 20px;
-  box-shadow: 5px 10px 100px #00c8ff, 0px 5px 20px #d0ff00;
+  box-shadow: 5px 10px 100px #ff0000, 0px 5px 20px #d0ff00;
   transition: all ease 0.5s;
   
 }
@@ -156,7 +171,7 @@ span1{
 }
 .neon-card:hover {
   transform: translateY(-20px);
-  box-shadow: 0px 15px 40px #08e4f4;
+  box-shadow: 0px 15px 40px #f40886;
 }
 
 .about-col-2{
@@ -183,7 +198,7 @@ span1{
     content: '';
     width: 0;
     height: 3px;
-    background-color: #13f7e4;
+    background-color: #f71354;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -197,7 +212,7 @@ span1{
     margin: 10px 0;
 }
 .tab-contains ul li span{
-    color:#0be0e7;
+    color:#f30303;
     font-size: 14px;
 }
 .tab-contains{
@@ -212,12 +227,12 @@ span1{
 }
 #services{
     padding:80px 0;
-    color:bisque;
+    color:rgb(223, 223, 223);
     box-shadow: #000000;
 }
 #services:hover{
     transform: translateY(-20px);
-  box-shadow: 0px 15px 40px #483ce6;
+  box-shadow: 0px 15px 40px #f30303;
 }
 
 .services-list {
@@ -255,7 +270,7 @@ span1{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #483ce6;
+    background: #ff1c1cb6;
     transform: translate(-10px);
 }
 /*-----portfolio---*/
@@ -376,7 +391,7 @@ span1{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #f7b716;
+    color: #ff004f;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -392,7 +407,7 @@ span1{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #f2b706;
+    color: #ff004f;
     transform: translate(-5px);
 }
 .btn.btn2{
@@ -436,6 +451,7 @@ form btn2{
     color: bisque;
 }
 /*-------------------css for small screens------------------*/
+
 nav .fa-solid {
     display: none;
 }
@@ -497,5 +513,12 @@ nav .fa-solid {
     }
     .copyright{
         font-size: 14px;
+    }
+    #anim-text{
+        font-size: 0px;
+    }
+    #smallerScreenText{
+        font-size: 20px;
+        text-emphasis-color: white;
     }
 }
