@@ -81,6 +81,214 @@ nav ul li a:hover::after{
 span1{
     color: #c812a0;
 }
+/*WORKS*/
+
+.block {
+    position: relative;
+    margin: 40px auto 0;
+    padding: 20px;
+    width: 700px;
+    height: 550px;
+    background: linear-gradient(0deg, #000, #272727);
+}
+
+.block:before, .block:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, 
+        #0000ff, #00ff00, #ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.block:after {
+    filter: blur(50px);
+}
+
+/* Table Styles */
+.tbl-content {
+    height: 400px;
+    overflow-x: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    border: 1px solid #050202;
+    font-size: 1em;
+
+}
+
+.tbl-content table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    
+}
+.tbl-header1{
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tbl-content th, .tbl-content td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid #000000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: #08def1;
+}
+
+.tbl-content th {
+    background-color: #030303;
+    font-size: 4em;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.tbl-content tr:nth-child(even) {
+    background-color: #1d111101;
+}
+
+.tbl-content tr:hover {
+    background-color: #9f72ec1f;
+}
+
+/* Link Styles */
+.tbl-content a {
+    color: #3498db;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    font-weight: bold;
+}
+
+.tbl-content a:hover {
+    color: #2980b9;
+}
+
+/* New class for animated table box */
+.animated-table {
+    position: relative;
+    margin: 40px auto;
+    border-radius: 30px;
+    padding: 20px;
+    width: 70%; /* Adjusted width for responsiveness */
+    max-width: 800px; /* Maximum width */
+    background: linear-gradient(0deg, #000, #272727);
+}
+
+.animated-table:before, .animated-table:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, 
+        #0000ff, #00ff00, #ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+}
+
+.animated-table:after {
+    filter: blur(50px); /* Adjusted blur for the table */
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    margin: 10px;
+}
+
+.tbl-header {
+    background-color: rgba(41, 52, 67, 0.653);
+}
+
+.tbl-content {
+    height: 380px;
+    overflow-x: hidden;
+    margin-top: 1px;
+    border: 1px solid rgba(13, 1, 1, 0.3);
+}
+
+th {
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+/* Follow me template */
+.made-with-love {
+    margin-top: 40px;
+    padding: 10px;
+    clear: left;
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.made-with-love i {
+    font-style: normal;
+    color: #F50057;
+    font-size: 14px;
+    position: relative;
+    top: 2px;
+}
+
+.made-with-love a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.made-with-love a:hover {
+    text-decoration: underline;
+}
+
+/* Custom scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
 /* Animation */
 .anim-typewriter {
     animation: typewriter 10s steps(44) infinite normal both,
@@ -373,6 +581,9 @@ span1{
   }
   .hidden {
     display: none;
+  }
+  .btn{
+    size: 20px;
   }
 /*-------Contact--------*/
 .contact-left{
